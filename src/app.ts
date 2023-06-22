@@ -1,7 +1,9 @@
 
 
 
-const hello = Array.from({ length: 10 }, (_, i) => `Hello ${i + 1}`);
+const hellos = Array.from({ length: 10 }, (_, i) => `Hello ${i + 1}`);
 
 
-console.log(hello);
+for (const h of hellos) {
+  console.log(h);
+}
