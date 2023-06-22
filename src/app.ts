@@ -1,6 +1,4 @@
 
-
-
 const hellos = Array.from({ length: 10 }, (_, i) => `Hello ${i + 1}`);
 
 
