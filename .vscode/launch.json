@@ -25,6 +25,17 @@
       "args": [
         "${relativeFile}"
       ],
+      "runtimeExecutable": "tsx",
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "tsx loader debug",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "${relativeFile}"
+      ],
       "runtimeArgs": [
         "--loader",
         "tsx"
